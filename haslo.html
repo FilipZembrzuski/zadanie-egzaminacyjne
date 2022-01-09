@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="banner"><a href="index.html"><h1>Sprawdź swoje hasło</h1></a></div>
+    <div id="box">
+        <div id="left">
+            <h2>Wybierz</h2>
+
+            <ol>
+                <li><a href="haslo.html">Sprawdź hasło</a></li>
+                <li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+            </ol>
+        </div>
+        <div id="right">
+            <img src="haslo.png" alt="Jak silne jest<br>Twoje hasło">
+                <br>
+            <p>Twoje hasło:</p>
+            <form>
+                <input type="password" id="haslo" placeholder="wprowadź hasło">
+                <input type="button" value="Sprawdź" onclick="sprawdz()">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h3 id="wynik">Miernik jakości hasła:</h3>
+        <p>Stronę opracował: Filip Zembrzuski</p>
+    </div>
+</body>
+</html>
